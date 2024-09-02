@@ -86,7 +86,7 @@ public class LTParallel {
 		driver.findElement(By.name("password1")).sendKeys("admin@123");
 		
 		driver.findElement(By.xpath("//button[normalize-space()='Sign in']")).click();
-		
+		// add coment
 	
 		driver.quit();
 		
